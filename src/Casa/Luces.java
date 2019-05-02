@@ -15,6 +15,13 @@ public class Luces {
         this.estado = estado;
     }
     
+    public Luces(){
+        this.intensidadMax = 100;
+        this.intensidadMed = 50;
+        this.intensidadMin = 10;
+        this.estado = true;        
+    }
+    
     
     public void Apagar () {
         if(estado==false){
